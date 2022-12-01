@@ -1,0 +1,57 @@
+h1 {
+	font-size: 24px;
+	text-align: center;
+}
+.font-size-p {
+	font-size: 120%;
+}
+ .a1:link {
+	color: red;
+}
+ .a2:link {
+	color: green;
+}
+ .a3:link {
+	color: blue;
+}
+.a4:link {
+	color: blueviolet;
+}
+.a1:visited {
+	color: black;
+}
+.a2:visited {
+	color: yellow;
+}
+.a3:visited {
+	color: rgb(6, 243, 231);
+}
+.a4:visited {
+	color: rgb(255, 0, 238);
+}
+.a1, .a2, .a3, .a4 {
+	margin-right: 10px;
+}
+/* for mobile */
+@media (max-width: 768px) {
+.pov-a {
+    display: flex;
+    flex-direction: column;
+}
+}
+/* for tabel */
+@media (min-width: 769px) and (max-width: 992px) {
+	.pov-a {
+		width: 200px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+/* for desktop */
+@media (min-width: 992px){
+	.pov-a {
+		display: inline-flex;
+		flex-direction: row;
+	}
+}

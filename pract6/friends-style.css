@@ -1,0 +1,80 @@
+table, th{
+    border: 2px solid black;
+}
+th {
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+#zagolovok {
+text-align: center;
+font-size: 22px;
+}
+.back{
+font-style: italic;
+}
+h2 {
+    text-align: center;
+}
+#tr1 td:nth-child(5) {
+    text-align: right;
+}
+#tr2 td:nth-child(5) {
+    text-align: right;
+}
+#tr3 td:nth-child(5) {
+    text-align: right;
+}
+#tr4 td:nth-child(5) {
+    text-align: right;
+}
+#tr5 td:nth-child(5) {
+    text-align: right;
+}
+#tr6 td:nth-child(5) {
+    text-align: right;
+}
+#tr1 td:nth-child(odd){
+    background-color: grey;
+}
+#tr1 td:nth-child(2){
+    background-color: grey;
+}
+#tr1 td:nth-child(4){
+    background-color: grey;
+}
+#tr3 td:nth-child(4){
+    background-color: grey;
+}
+#tr3 td:nth-child(2){
+    background-color: grey;
+}
+#tr3 td:nth-child(odd){
+    background-color: grey;
+}
+#tr5 td:nth-child(4){
+    background-color: grey;
+}
+#tr5 td:nth-child(2){
+    background-color: grey;
+}
+#tr5 td:nth-child(odd){
+    background-color: grey;
+}
+@media (min-width: 992px){
+    th{
+        font-size: 130%;
+    }
+    td{
+        font-size: 120%;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    th{
+        font-size: 120%;
+    }
+    td{
+        font-size: 110%;
+    }
+}

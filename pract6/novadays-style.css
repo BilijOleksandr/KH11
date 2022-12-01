@@ -1,0 +1,55 @@
+#zagolovok {
+    text-align: center;
+    font-size: 22px;
+}
+.back{
+    font-style: italic;
+}
+h2 {
+    text-align: center;
+}
+
+ul .lu1 li:nth-child(odd){
+background-color: grey;
+color: blue;
+}
+ul .lu2 li:nth-child(odd){
+background-color: grey;
+color: blue;
+}
+ul .lu3 li:nth-child(odd){
+background-color: grey;
+color: blue;
+}
+ul .lu4 li:nth-child(odd){
+background-color: grey;
+color: blue;
+}
+ol #light3:hover {
+color: blue;
+}
+ol #light5:hover {
+color: blue;
+}
+ol #light4{
+background-color: red;
+}
+ol #light23:hover {
+color: blue;
+}
+ol #light25:hover {
+color: blue;
+}
+ol #light24{
+background-color: red;
+}
+@media (min-width: 992px){
+    .list{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .under-list{
+        width: 50%;
+    }
+}
